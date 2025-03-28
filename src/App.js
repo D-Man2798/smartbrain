@@ -101,7 +101,7 @@ class App extends Component {
     .then(response => response.json())
     .then(response => {
       if(response){
-        fetch('https://smartbrain-zsu4.onrender.com/image',{
+        fetch('https://smartbrain-server-vyex.onrender.com/image',{
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
