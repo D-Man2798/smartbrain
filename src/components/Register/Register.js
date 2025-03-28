@@ -23,7 +23,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('https://smartbrain-server-vyex.onrender.com/register',{
+    fetch('https://smartbrain-server-vyex.onrender.com',{
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
